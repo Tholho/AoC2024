@@ -4,8 +4,8 @@ export default {
   inlineCriticalCss: true,
   routes: undefined,
   assets: new Map([
-['index.csr.html', {size: 687, hash: 'a427b74461d5e347e7a5abcd4c3eb254944ed49a524327dc749a1427e33711e1', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)}], 
-['index.server.html', {size: 1050, hash: '7a074dad72913165cb7e5e190d520ee1ddcfd5b5a334c13bbdbd68efb7c49f4e', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)}], 
+['index.csr.html', {size: 673, hash: 'ff70a2f18a4d6bc8abb51eb7e1f3d3668eceddbfaa82a88984b3a5b15453b1e0', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)}], 
+['index.server.html', {size: 1036, hash: '77e7186019bdfd5c9d623ee0911e925e7eada7c1f17dd609d6b9713b42a1f64a', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)}], 
 ['styles-SPLAIKQF.css', {size: 25, hash: 'aSEC1cd1US4', text: () => import('./assets-chunks/styles-SPLAIKQF_css.mjs').then(m => m.default)}]
 ]),
   locale: undefined,
