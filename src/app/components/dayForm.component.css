@@ -1,5 +1,17 @@
+:host * {
+  font-family: "Source Code Pro", monospace;
+}
 :host form {
   display: flex;
+  gap: 10px;
+}
+:host form textarea {
+  color: #00cc00;
+  background: #0f0f23;
+}
+:host form button {
+  background: #0f0f23;
+  color: #fff;
 }
 
 /*# sourceMappingURL=dayForm.component.css.map */

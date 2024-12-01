@@ -19,7 +19,7 @@ import {FormsModule} from '@angular/forms';
       </div>
     </div>
   `,
-  styleUrl: './dayForm.component.scss'
+  styleUrl: './dayForm.component.scss',
 })
 export class DayFormComponent {
   @Input() solution!: DailySolution;

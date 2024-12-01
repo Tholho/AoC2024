@@ -1,5 +1,17 @@
 :host {
+  * {
+    font-family: 'Source Code Pro', monospace;
+  }
   form {
     display: flex;
+    gap: 10px;
+    textarea {
+      color: #00cc00;
+      background: #0f0f23;
+    }
+    button {
+      background: #0f0f23;
+      color: #fff;
+    }
   }
 }

@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300");
+main {
+  font-family: "Source Code Pro", monospace;
+}
+
 :host {
   --bright-blue: oklch(51.01% 0.274 263.83);
   --electric-violet: oklch(53.18% 0.28 296.97);
@@ -23,7 +27,6 @@
       var(--electric-violet) 100%
   );
   --pill-accent: var(--bright-blue);
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -36,7 +39,6 @@ h1 {
   line-height: 100%;
   letter-spacing: -0.125rem;
   margin: 0;
-  font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 p {

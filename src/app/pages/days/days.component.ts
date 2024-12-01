@@ -24,7 +24,7 @@ import { solutions } from './solutions/index';
     </div>
     </div>
   `,
-  styleUrl: './days.component.scss'
+  styleUrl: './days.component.scss',
 })
 export class DaysComponent implements OnInit {
   solutionA!: DailySolution;
