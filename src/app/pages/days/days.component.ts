@@ -14,12 +14,12 @@ import { solutions } from './solutions/index';
   template: `
     <div class="container">
     <div *ngIf="solutionA">
-      <h2>Form A</h2>
+      <h2>First part</h2>
       <solution-form [solution]="solutionA" (resultChange)="onResultA($event)"></solution-form>
     </div>
 
     <div *ngIf="solutionB">
-      <h2>Form B</h2>
+      <h2>Second part</h2>
       <solution-form [solution]="solutionB" (resultChange)="onResultB($event)"></solution-form>
     </div>
     </div>

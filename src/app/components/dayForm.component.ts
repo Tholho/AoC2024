@@ -9,14 +9,17 @@ import {FormsModule} from '@angular/forms';
   standalone: true,
   imports: [FormsModule, CommonModule],
   template: `
-    <form (ngSubmit)="onSubmit()">
-      <textarea [(ngModel)]="input" name="solutionInput" required></textarea>
-      <button type="submit" [disabled]="!input">Solve</button>
-    </form>
-    <div *ngIf="result">
-      Result: {{ result }}
+    <div class="formContainer">
+      <form (ngSubmit)="onSubmit()">
+        <textarea [(ngModel)]="input" name="solutionInput" required></textarea>
+        <button type="submit" [disabled]="!input">Solve</button>
+      </form>
+      <div *ngIf="result">
+        Result: {{ result }}
+      </div>
     </div>
-  `
+  `,
+  styleUrl: './dayForm.component.scss'
 })
 export class DayFormComponent {
   @Input() solution!: DailySolution;
