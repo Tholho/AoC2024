@@ -1,0 +1,7 @@
+:host .container {
+  display: flex;
+  flex-flow: nowrap;
+  gap: 20px;
+}
+
+/*# sourceMappingURL=days.component.css.map */
